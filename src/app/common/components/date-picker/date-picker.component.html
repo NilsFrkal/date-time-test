@@ -1,0 +1,16 @@
+<ion-content scrollEvents="true">
+  <ion-row id="bfsc-date-picker-text-row">
+    <ion-col class="bfsc-margin-left-right bfsc-text-center">
+      <ion-text>Please select a <span *ngIf="dateTypeText">{{ dateTypeText }}</span> date!
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row id="bfsc-date-picker-picker">
+    <ion-col class="bfsc-text-center">
+      <ion-datetime id="bfsc-date-picker-component" size="cover" [value]="date" [presentation]="selectedMode"
+        [min]="minDate" [max]="maxDate" (ionChange)="onSelectDate(dateinput.value)" showDefaultButtons="true"
+        (ionCancel)="onDatePickerCancel()" #dateinput>
+      </ion-datetime>
+    </ion-col>
+  </ion-row>
+</ion-content>

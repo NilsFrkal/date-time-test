@@ -1,0 +1,24 @@
+{
+  "appId": "au.com.ionic",
+  "appName": "Ionic",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build/device",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 3000
+    },
+    "PushNotifications": {
+      "presentationOptions": [
+        "badge",
+        "sound"
+      ]
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_ln_icon",
+      "iconColor": "#855da5",
+      "sound": ""
+    }
+  },
+  "cordova": {}
+}

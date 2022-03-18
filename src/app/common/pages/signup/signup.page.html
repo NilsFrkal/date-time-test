@@ -1,0 +1,18 @@
+<ion-content class="bfsc-content scroll-content" overflow-scroll="true" scroll="true" [scrollEvents]="true"
+  #scrollTargetTopGrid>
+
+  <ion-grid id="bfsc-signup-grid">
+    <form>
+      <ion-row id="bfsc-signup-dob-row" *ngIf="subPage === 1">
+        <ion-col class="bfsc-date-button">
+          <ion-button id="open-modal" class="bfsc-button-height" shape="round" expand="block" fill="outline"
+            (click)="onSelectBirthdate()">
+            <span *ngIf="!dob">Select birthdate
+            </span><span *ngIf="dob">{{ dob | date: 'dd/MM/yyyy'
+              }}</span>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </form>
+  </ion-grid>
+</ion-content>

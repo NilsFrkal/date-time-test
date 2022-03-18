@@ -1,0 +1,16 @@
+<!-- IMPORTANT: Import SharedModule to the xxx.module.ts file where you want to use the appFixedHeader directive -->
+
+<ion-content scrollEvents="true">
+    <table class="bfsc-fixed-header">
+        <thead>
+            <ion-grid [ngStyle]="{'width':'100%', height:'110px'}">
+                <!-- header content -->
+            </ion-grid>
+        </thead>
+
+        <!-- Adjust the height of the toolbar (44px is ionic standard) and the height of the header abvoe -->
+        <tbody appFixedHeader headerHeight="110" toolbarHeight="44" footerHeight="57">
+            <!-- header content -->
+        </tbody>
+    </table>
+</ion-content>

@@ -1,0 +1,120 @@
+.scroll-content {
+    padding-bottom: 0 !important;
+  }
+
+#bfsc-signup-grid {
+    margin-top: 10%;
+}
+
+#bfsc-signup-name-row {
+    margin-top: 10%;
+}
+
+#bfsc-signup-dob-row {
+    margin-top: 5%;
+}
+
+.bfsc-parent-selection-col {
+    width: 100%;
+}
+
+.bfsc-parent-selection-button {
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.bfsc-date-button {
+    margin-top: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#bfsc-signup-username-row {
+    margin-top: 10%;
+}
+
+#bfsc-signup-postcode-row {
+    margin-top: 10%;
+}
+
+#bfsc-signup-text-row {
+    margin-top: 20px;
+}
+
+#bfsc-signup-phone-row {
+    margin-top: 10%;
+}
+
+#bfsc-signup-button-row {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 60px;
+}
+
+#bfsc-signin-text-row {
+    margin-top: 20px;
+}
+
+#bfsc-postcode-text {
+    font-size: 0.8em;
+    opacity: 0.8;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-top: 6px;
+}
+
+#bfsc-signup-button {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#bfsc-signin-text {
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+
+.bfsc-signup-text {
+}
+
+#bfsc-signup-confirm {
+    margin-top: 0px;
+}
+
+#bfsc-signin-button-row {
+    /* position: fixed; */
+    /* bottom: 10px; */
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+#bfsc-signin-button {
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#bfsc-back-button {
+    position: absolute;
+    cursor: pointer;
+}
+
+.matching-postcodes {
+    margin-top: 10px;
+    overflow: auto;
+    height: 400px;
+    position: absolute;
+    margin-right: 15px;
+    width: 97%;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+.matching-postcodes-elem {
+    cursor: pointer;
+}
